@@ -2,10 +2,6 @@
 
 > Small projects to study Python.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 Projects to study Python.
 
 ![](header.png)
