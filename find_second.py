@@ -1,4 +1,4 @@
 def find_second(search, target):
-  
-  return(search.find(target))
-print(find_second("aa","bbaabbaa"))
+  first = search.find(target)
+  return(search.find(target,first+1))
+print(find_second("bbtaabbtaa","t"))
