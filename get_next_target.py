@@ -6,5 +6,5 @@ def get_next_target(page):
   end_quote = page.find('"',start_quote + 1)
   url = page[start_quote + 1:end_quote]
   return url, end_quote
-url, endpos = get_next_target('<div id="SIvCob">Google offered in:  <a href="https://www.google.com/">Français</a>  </div>')
-print(url,endpos)
+#url, endpos = get_next_target('<div id="SIvCob">Google offered in:  <a href="https://www.google.com/">Français</a>  </div>')
+#print(url,endpos)
